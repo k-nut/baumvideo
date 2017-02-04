@@ -13,5 +13,5 @@ Runnig it:
 
 Creating the video:
 ```
-ffmpeg -start_number 1880 -i './rendered/%04d.png' -framerate 1/2 -r 30 -vcodec mpeg4 video.mp4
+ffmpeg -framerate 2 -start_number 1880 -i './rendered/%04d.png' -r 30  -vcodec mpeg4 -pix_fmt yuv420p trees.mp4
 ```
