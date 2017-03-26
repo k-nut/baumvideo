@@ -3,7 +3,7 @@
 Project to display all of Berlin's trees by year of plantation in the form of a video.
 
 ## Dependencies
-The images are rendered with [nik4.pt](https://github.com/Zverik/Nik4). You can install it and its depenceny mapnik via `pip install mapnik nik4`.
+The images are rendered with [nik4.py](https://github.com/Zverik/Nik4). You can install it and its depenceny mapnik via `pip install mapnik nik4`.
 
 In order to add the labels to the videos you need `convert` from the `imagemagick` tool.
 
