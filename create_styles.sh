@@ -1,3 +1,4 @@
+mkdir -p styles
 rm styles/*
 
 for i in {1880..2016}
