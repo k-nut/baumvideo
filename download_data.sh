@@ -1,3 +1,5 @@
+mkdir -p data
+
 for i in {1880..2016}
 do
   echo $i
