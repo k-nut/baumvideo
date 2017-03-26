@@ -13,7 +13,7 @@
   <Layer name="trees" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
       <StyleName>trees</StyleName>
       <Datasource>
-        <Parameter name="file">/Users/knut/projects/baumvideo/data/YEAR.json</Parameter>
+        <Parameter name="file">PATH/data/YEAR.json</Parameter>
          <Parameter name="type">geojson</Parameter>
       </Datasource>
   </Layer>
@@ -21,7 +21,7 @@
   <Layer name="boroughs" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
       <StyleName>boroughs</StyleName>
       <Datasource>
-        <Parameter name="file">/Users/knut/projects/baumvideo/berlin_bezirke.geojson</Parameter>
+        <Parameter name="file">PATH/berlin_bezirke.geojson</Parameter>
          <Parameter name="type">geojson</Parameter>
       </Datasource>
   </Layer>
