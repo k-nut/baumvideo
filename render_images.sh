@@ -1,3 +1,4 @@
+mkdir -p rendered
 rm rendered/* 
 
 for i in {1880..2016}
