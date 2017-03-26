@@ -1,5 +1,5 @@
 mkdir -p styles
-rm styles/*
+rm styles/* || true
 
 for i in {1880..2016}
 do
