@@ -1,5 +1,4 @@
-<Map srs="+init=epsg:3857"
-     background-color="#ffffff">
+<Map srs="+init=epsg:3068" background-color="#ffffff">
   <Style name="trees" filter-mode="first">
     <Rule>
       <MarkersSymbolizer width="5" fill="#009900" stroke="#881133" allow-overlap="true" ignore-placement="true" />
