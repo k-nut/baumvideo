@@ -22,7 +22,7 @@ In order to render the actual video `ffmpeg` is required.
 
 ## Rendreing the video
 ```
-ffmpeg -framerate 2 -start_number 1880 -i './rendered/%04d.png' -r 30  -vcodec mpeg4 -pix_fmt yuv420p trees.mp4
+ffmpeg -framerate 2 -start_number 1880 -i './rendered/%04d.png' -r 30  -pix_fmt yuv420p trees.mp4
 ```
 
 This will create a file called `trees.mp4` in your current working directory.
