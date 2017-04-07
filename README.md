@@ -3,7 +3,7 @@
 Project to display all of Berlin's trees by year of plantation in the form of a video.
 
 ## Dependencies
-The images are rendered with [nik4.py](https://github.com/Zverik/Nik4). You can install it and its depenceny `mapnik` via `pip install mapnik nik4`.
+The images are rendered with [mapnik](http://mapnik.org). You can install it via `pip install mapnik`.
 
 In order to add the labels to the videos you need `convert` from the `imagemagick` tool.
 
@@ -16,8 +16,7 @@ In order to render the actual video `ffmpeg` is required.
 
 ```
 ./download_data.sh   # Downloads the data from the tree api and puts it into ./data
-./create_styles.sh   # Creates an xml file per year based on `template.xml` and puts it into ./styles
-./render_images.sh   # Renders the images with nik4.py
+./render.py          # Renders the images with mapnik
 ./add_year_labels.sh # Adds the labels that show the year to the top left
 ```
 
